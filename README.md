@@ -10,12 +10,7 @@
 
 2. Выполнить команду Make в склонированном проекте
 ```bash
-make build vendor up migrate
-```
-
-3. Запустить контейнер
-```bash
-make up
+make build up vendor migrate seed
 ```
 
 для остановки контейнера используйте команду ```make down```
